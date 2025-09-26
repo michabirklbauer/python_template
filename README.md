@@ -7,7 +7,7 @@ A template repository for linting, testing, GUI building and dockerizing python 
 ## Checklist
 
 - Replace `YOURUSERNAME` and `IMAGENAME` in `.github/workflows/docker-image.yml` [or delete file].
-- Replace test data in `data` with your own data [or delete if you down have test data].
+- Replace test data in `data` with your own data [or delete if you don't have test data].
 - Adjust `.gitattributes` according to your needs.
 - Adjust `.gitignore` according to your needs.
 - Setup your `CITATION.cff` according to your needs [or delete file].
@@ -27,6 +27,7 @@ A template repository for linting, testing, GUI building and dockerizing python 
     sphinx-build -b html docs_src docs
     ```
   - Publish documentation [optional]!
+    - Serving with GitHub pages needs the addition of an empty `.nojekyll` file to your `/docs`.
 - Adjust this `README.md` to your needs!
 
 ## Known Issues
@@ -49,4 +50,4 @@ DOI: 12.3456/cool-stuff
 
 ## Contact
 
-- [micha.birklbauer@fh-hagenberg.at](mailto:micha.birklbauer@fh-hagenberg.at)
+- [micha.birklbauer@gmail.com](mailto:micha.birklbauer@gmail.com)
