@@ -14,7 +14,7 @@ A template repository for linting, testing, GUI building and dockerizing python 
 - Replace dummy values in `Dockerfile` and write image instructions.
 - Replace copyright name in `LICENSE`.
 - Replace lines 10 - 13 and write your script in `main.py`.
-- Replace lines 10 - 6 and write your gui in `gui/streamlit_app.py`.
+- Replace lines 10 - 13 and write your gui in `gui/streamlit_app.py`.
 - Replace lines 3 - 6 and write tests in `tests/test_main.py`.
 - Add your requirements to `requirements.txt`.
 - Document your script with [Sphinx](https://www.sphinx-doc.org/):
