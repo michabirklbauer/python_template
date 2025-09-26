@@ -9,7 +9,7 @@
 def test1():
     import pandas as pd
 
-    df = pd.read_csv("example_data.csv")
+    df = pd.read_csv("data/example_data.csv")
 
     from main import my_product
 

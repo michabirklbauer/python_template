@@ -7,17 +7,15 @@ A template repository for linting, testing, GUI building and dockerizing python 
 ## Checklist
 
 - Replace `YOURUSERNAME` and `IMAGENAME` in `.github/workflows/docker-image.yml` [or delete file].
-- Replace `example` [line 5] with an appropriate name in `.github/workflows/python-app.yml`.
-- Setup the appropriate copy statements [line >29] in `.github/workflows/python-app.yml`.
 - Replace test data in `data` with your own data [or delete if you don't have test data].
 - Adjust `.gitattributes` according to your needs.
 - Adjust `.gitignore` according to your needs.
 - Setup your `CITATION.cff` according to your needs [or delete file].
 - Replace dummy values in `Dockerfile` and write image instructions.
 - Replace copyright name in `LICENSE`.
-- Replace lines 3 - 6 and write your script in `main.py`.
-- Replace lines 3 - 6 and write your gui in `gui/streamlit_app.py`.
-- Replace lines 3 - 6 and write tests in `tests/tests.py`.
+- Replace lines 10 - 13 and write your script in `main.py`.
+- Replace lines 10 - 13 and write your gui in `gui/streamlit_app.py`.
+- Replace lines 3 - 6 and write tests in `tests/test_main.py`.
 - Add your requirements to `requirements.txt`.
 - Document your script with [Sphinx](https://www.sphinx-doc.org/):
   - Install Sphinx and the [PyData](https://github.com/pydata/pydata-sphinx-theme) theme: `pip install sphinx pydata-sphinx-theme`.
