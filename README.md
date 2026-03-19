@@ -17,17 +17,20 @@ A template repository for linting, testing, GUI building and dockerizing python 
 - Replace lines 10 - 13 and write your gui in `gui/streamlit_app.py`.
 - Replace lines 3 - 6 and write tests in `tests/test_main.py`.
 - Add your requirements to `requirements.txt`.
-- Document your script with [Sphinx](https://www.sphinx-doc.org/):
-  - Install Sphinx and the [PyData](https://github.com/pydata/pydata-sphinx-theme) theme: `pip install sphinx pydata-sphinx-theme`.
-  - Adjust the configuration to your needs in `docs_src/conf.py`.
-  - Write documentation!
-  - Build documentation with:
-    ```
-    sphinx-apidoc -f -o docs_src .
-    sphinx-build -b html docs_src docs
-    ```
-  - Publish documentation [optional]!
-    - Serving with GitHub pages needs the addition of an empty `.nojekyll` file to your `/docs`.
+- Document your script using the [numpydoc style](https://numpydoc.readthedocs.io/en/latest/format.html) and [Sphinx](https://www.sphinx-doc.org/):
+  - Adjust the configuration to your needs in `docs/conf.py`.
+  - Automatically via GitHub Actions:
+    - In the repository go to `Settings` ➡️ `Pages` ➡️ `Build and deployment` ➡️ `Source` ➡️ `GitHub Actions`.
+    - Select the `gh-pages.yml` / `Deploy Documentation to Pages` workflow.
+  - Or build manually:
+    - Install Sphinx and the [PyData](https://github.com/pydata/pydata-sphinx-theme) theme: `pip install sphinx pydata-sphinx-theme`.
+    - Build documentation with:
+      ```
+      sphinx-apidoc -f -o docs .
+      sphinx-build -b html docs html
+      ```
+    - Publish documentation [optional]!
+    - Serving with GitHub pages needs the addition of an empty `.nojekyll` file to your `/html`.
 - Adjust this `README.md` to your needs!
 
 ## Known Issues
